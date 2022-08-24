@@ -1,4 +1,5 @@
 import streamlit as st
+import mysql.connector
 g="Hello!"
 st.set_page_config(page_title=g)
 def check():
