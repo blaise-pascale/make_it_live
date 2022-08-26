@@ -3,3 +3,7 @@ streamlit_bokeh_events
 bokeh
 geopandas
 shapely
+folium
+pandas
+pydeck
+numpy
