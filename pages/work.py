@@ -8,6 +8,7 @@ import folium
 from streamlit_folium import folium_static
 from streamlit_bokeh_events import streamlit_bokeh_events
 from shapely import geometry
+import geopandas as gpd
 
 def find_nearby():
 
