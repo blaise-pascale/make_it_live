@@ -1,7 +1,7 @@
 import streamlit as st
 import mysql.connector
 
-base="\\tree\\main\\pages\\name.txt"
+base="pages\\name.txt"
 f=open(base,"r")
 st.write(f.read())
 g="Hello!"
