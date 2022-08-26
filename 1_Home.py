@@ -1,8 +1,10 @@
 import streamlit as st
 import mysql.connector
-
-base="pages\\name.txt"
-f=open(base,"r")
+import urllib
+response = urllib.request.urlopen("https://raw.githubusercontent.com/blaise-pascale/make_it_live/main/pages/name.txt")
+Text = response.read()
+Text1=Text.decode("utf-8") 
+st.write(Text1)
 st.write(f.read())
 g="Hello!"
 st.set_page_config(page_title=g)
