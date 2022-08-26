@@ -1,3 +1,5 @@
 mysql.connector
 streamlit_bokeh_events
 bokeh
+geopandas
+shapely
